@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Notification System</title>
+  <link rel="stylesheet" href="notification.css">
+</head>
+<body>
+
+<div class="controls">
+  <button onclick="showToast('success', 'Saved successfully!')">Success</button>
+  <button onclick="showToast('error', 'Something went wrong!')">Error</button>
+  <button onclick="showToast('info', 'This is an info message')">Info</button>
+</div>
+
+<div id="toast-container"></div>
+
+<script src="notification.js"></script>
+</body>
+</html>
